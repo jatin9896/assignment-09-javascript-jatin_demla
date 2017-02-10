@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+  <script src="jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <script src="scripting.js"></script>
+    <title>Portfolio Template</title>
+</head>
+<body >
+<!--  <p id="time"></p> -->
+  <div class="container">
+<div class="top">
+  <form class="form-inline" onsubmit="validateCredential()" method="post">
+    <div class="form-group">
+      <input type="text" class="form-control" name="loginid" id="loginid" placeholder="ID">
+      <input type="password" class="form-control" name="password" id="password" placeholder="password">
+
+    <button class="btn btn-default">Login</button>
+    <a class="btn btn-lg " data-toggle="modal" data-target="#myModal">Not A Member Yet?</a>
+    <i id="time" class="btn btn-lg ">hh:mm:ss</i>
+  </div>
+      </form>
+
+      <!-- Trigger the modal with a button -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Register</h4>
+            </div>
+            <div class="modal-body">
+             <form>
+               <div class="forminline">
+                 <input type="text" placeholder="First Name" style="width:90px;margin-left:0px;background-color:#EAECEE;" id="fname" onfocusout="checkFName()"></input>
+                 <input type="text" placeholder="Middle Name" style="width:100px;margin-left:5px;background-color:#EAECEE;" id="midname" onfocusout="checkMidName()"></input>
+                  <input type="text" placeholder="Last Name" style="width:90px;margin-left:5px;background-color:#EAECEE;" id="lastname" onfocusout="checkLastName()"></input>
+                  <input type="text" placeholder="hello@knoldus.in" style="width:300px;margin-top:5px;background-color:#EAECEE;" id="email" onfocusout="checkEmail()" ></input>
+                  <p style="display:inline;background-color:#EAECEE;">+91</p>
+                  <input type="number" placeholder="Mobile NO " style="width:270px;margin-top:5px;background-color:#EAECEE;" id="mobile" onfocusout="checkMobile()"></input>
+                  <input type="text" placeholder="alternate email" style="width:300px;margin-top:5px;background-color:#EAECEE;" id="reemail" onfocusout="checkReEmail()"></input>
+                  <input type="text" placeholder="password" style="width:300px;margin-top:5px;background-color:#EAECEE;" id="pass" onfocusout="checkPassword()" ></input>
+                  <input type="text" placeholder="reconfirm password" style="width:300px;margin-top:5px;background-color:#EAECEE;" id="repass" onfocusout="checkRePassword()"></input>
+
+               </div></form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+</div>
+<div class="divbg">
+    <div class="divsolid" ><h3 class="pinside">PortFolio<br> WebDesign</h3></div>
+    <div class="divsolid1" ><button class="divbutton"> HOME</button></div>
+    <div class="divsolid1" ><button class="divbutton"> PORTFOLIO</button></div>
+    <div class="divsolid1" ><button class="divbutton"> SERVICE</button></div>
+    <div class="divsolid1" ><button class="divbutton"> CONTACT</button></div>
+</div>
+<div class="inner">
+    <div class="ininner"><h3 class="catchy">This is a catchy Tagline for website and your service</h3></div>
+    <div class="ininner2"><img src="portfolio.jpg" height="100%" width="100%" alt="image here"></img></div>
+</div>
+<div class="lower">
+    <div class="innerlower"><h3>ABOUT US</h3>
+      <p>
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+        hello this is about knolder lets have some html practice in class and trying to test div tags.
+      </p></div>
+    <div class="innerright"><h3>FEATURED WORK</h3>
+        <div class="veryinner">
+            <div class="innerimg"><h3 style="color:white;">Sixth Revision</h3><p style="margin-top:-60px;">the new revision to be put down here</p></div>
+    </div>
+
+        <div class="veryinner">
+            <div class="innerimg"><h3 style="color:white;">Sixth Revision</h3><p style="margin-top:-60px;">the new revision to be put down here</p></div>
+        </div>
+<p id="test">test</p>
+      </div>
+</div>
+
+</body>
+</html>

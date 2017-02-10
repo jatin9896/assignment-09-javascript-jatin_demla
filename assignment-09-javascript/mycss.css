@@ -1,0 +1,108 @@
+body{
+background-color: lightgrey;
+}
+.top{
+  align:right;
+  position:relative;
+    float:right;
+  }
+.divbg{
+        display: inline-block;
+    background-image: url("grey.jpg");
+    height:60px;
+    width:100%;
+     background-repeat: repeat-x;
+     margin-top: 5px;
+}
+.divsolid{
+height:77px;
+font-weight:bold;
+font-size:22px;
+color:black;
+width:20%;
+margin-right:140px;
+float:left;
+}
+.divsolid1{
+  height:77px;
+ font-size:22px;
+ color:black;
+  float:left;
+
+ }
+ button:hover {
+   background-color: yellow;
+}
+ .divbutton{
+ height:50px;
+ width:170px;
+ font-size: 26px;
+ border-radius: 12px;
+ margin: 5px;
+ }
+.pinside{
+    margin-top:1%;
+     margin-left:40%;
+     margin-bottom:20%;
+
+ }
+ .inner{
+ border-style: solid;
+ border-width:7px;
+ border-color:#77787a;
+ width:70%;
+ height:300px;
+ margin-left:15%;
+ margin-right:8%;
+ margin-top:2%;
+ margin-bottom:2%
+ }
+ .ininner{
+ width:40%;
+ background-color:darkgrey;
+ float:left;
+ }
+ .ininner2{
+  width:60%;
+  float:left;
+  }
+.catchy{
+  margin:20px;
+  font-size: 26px;
+  font-family:monospace;
+  color:white;
+}
+.lower{
+width:100%;
+}
+.innerlower{
+width:40%;
+  float:left;
+  margin-left:10%;
+}
+.veryinner{
+border-style: solid;
+border-width:4px;
+border-color:black;
+height:50%;
+margin:2%;
+}
+.innerimg{
+    background-image: url("greyyaxis.jpg");
+    height:20px;
+    width:100%;
+     background-repeat: repeat-x;
+}
+.forminline{
+   display: block;
+}
+.innerright
+{
+  width:40%;
+    float:left;
+    margin-right:5%;
+    margin-left:0;
+}
+.modal-sm {
+    width: 350px;
+}
